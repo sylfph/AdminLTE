@@ -1,35 +1,41 @@
 // Sylph styles
 // This file is imported in AdminLTE.scss
 
-$blue:              #7265e3 !default;
-
-$sylfph-purple:     #7265e3 !default;
-$sylfph-red:        #f77777 !default;
-$sylfph-yellow:     #ffa56c !default;
-$sylfph-grey:       #f7f7f7 !default;
-
+$blue: #7265e3 !default;
+$sylfph-purple: #7265e3 !default;
+$sylfph-red: #f77777 !default;
+$sylfph-yellow: #ffa56c !default;
+$sylfph-grey: #f7f7f7 !default;
+$sylfph-dark-grey: #dee2e6 !default;
 
 
 .content-wrapper{
-    background-color:$sylfph-grey!important;
+  background-color: $sylfph-grey !important;
 }
 
 .btn-primary{
-    background-color:$sylfph-purple;
+  background-color: $sylfph-grey;
 }
 
 .badge-danger{
-    background-color:$sylfph-red !important;
+  background-color: $sylfph-red !important;
 }
 
 .badge-warning{
-    background-color:$sylfph-yellow !important;
+  background-color: $sylfph-grey !important;
 }
 
 .text-color-purple{
-    color:$sylfph-purple!important;
+  color: $sylfph-purple !important;
 }
 
 .card{
-    box-shadow:none!important;
+  box-shadow: none !important;
+}
+
+.card-footer{
+  background-color: $sylfph-dark-grey !important;
+  border-top: 0 solid $sylfph-dark-grey !important;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
 }
