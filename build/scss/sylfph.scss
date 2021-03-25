@@ -1,4 +1,35 @@
 // Sylph styles
 // This file is imported in AdminLTE.scss
 
-$green:   #04ff3e !default;
+$blue:              #7265e3 !default;
+
+$sylfph-purple:     #7265e3 !default;
+$sylfph-red:        #f77777 !default;
+$sylfph-yellow:     #ffa56c !default;
+$sylfph-grey:       #f7f7f7 !default;
+
+
+
+.content-wrapper{
+    background-color:$sylfph-grey!important;
+}
+
+.btn-primary{
+    background-color:$sylfph-purple;
+}
+
+.badge-danger{
+    background-color:$sylfph-red !important;
+}
+
+.badge-warning{
+    background-color:$sylfph-yellow !important;
+}
+
+.text-color-purple{
+    color:$sylfph-purple!important;
+}
+
+.card{
+    box-shadow:none!important;
+}
