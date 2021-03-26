@@ -1,12 +1,44 @@
 // Sylph styles
 // This file is imported in AdminLTE.scss
 
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #7265e3 !default;
+$pink:    #e36565 !default;
+$red:     #f77777 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffa56c !default;
+$green:   #009d91 !default;
+$teal:    #3fc7bc !default;
+$cyan:    #57a5fc !default;
+
 $blue: #7265e3 !default;
-$sylfph-purple: #7265e3 !default;
-$sylfph-red: #f77777 !default;
-$sylfph-yellow: #ffa56c !default;
-$sylfph-grey: #f7f7f7 !default;
-$sylfph-dark-grey: #dee2e6 !default;
+$lightblue: #57a5fc !default;
+$navy: #001f3f !default;
+$teal: #3fc7bc !default;
+$olive: #009d91 !default;
+$lime: #20b4a9 !default;
+$orange: #ffa56c !default;
+$fuchsia: #fddddd !default;
+$purple: #7265e3 !default;
+$maroon: #f77777 !default;
+$black: #111 !default;
+$gray-x-light: #f7f7f7 !default;
+
+
+$blue:                #7265e3 !default;
+$sylfph-purple:       #7265e3 !default;
+$sylfph-light-purple: #aaa3ee!default;
+$sylfph-red:          #f77777 !default;
+$sylfph-yellow:       #ffa56c !default;
+$sylfph-grey:         #f7f7f7 !default;
+$sylfph-dark-grey:    #dee2e6 !default;
+$sylfph-off-white:    #f4f6fa !default;
+$sylfph-blue:         #57a5fc !default;
+$sylfph-purple-logo:  #6250a2 !default;
+
+
+
 
 
 .content-wrapper{
@@ -22,7 +54,7 @@ $sylfph-dark-grey: #dee2e6 !default;
 }
 
 .badge-warning{
-  background-color: $sylfph-grey !important;
+  background-color: $sylfph-yellow !important;
 }
 
 .text-color-purple{
@@ -38,4 +70,36 @@ $sylfph-dark-grey: #dee2e6 !default;
   border-top: 0 solid $sylfph-dark-grey !important;
   border-bottom-left-radius: .25rem;
   border-bottom-right-radius: .25rem;
+}
+
+.small-box{
+  box-shadow:none;
+  background-color:#fff;
+
+  .icon{
+    color:$sylfph-light-purple;
+  }
+
+  .small-box-footer{
+    border-top:1px solid $sylfph-off-white;
+    color:$sylfph-purple;
+    background-color:#fff;
+  }
+}
+
+.home-top-text{
+  text-align:center;
+  p{
+    font-size:1.2rem;
+  }
+}
+
+.navbar-light{
+  .navbar-nav{
+    .nav-link{
+      &.active{
+        color:$sylfph-purple-logo;
+      }
+    }
+  }
 }
