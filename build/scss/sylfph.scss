@@ -1,16 +1,15 @@
 // Sylph styles
 // This file is imported in AdminLTE.scss
 
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #7265e3 !default;
-$pink:    #e36565 !default;
-$red:     #f77777 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffa56c !default;
-$green:   #009d91 !default;
-$teal:    #3fc7bc !default;
-$cyan:    #57a5fc !default;
+$indigo: #6610f2 !default;
+$purple: #7265e3 !default;
+$pink: #e36565 !default;
+$red: #f77777 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffa56c !default;
+$green: #009d91 !default;
+$teal: #3fc7bc !default;
+$cyan: #57a5fc !default;
 
 $blue: #7265e3 !default;
 $lightblue: #57a5fc !default;
@@ -25,21 +24,16 @@ $maroon: #f77777 !default;
 $black: #111 !default;
 $gray-x-light: #f7f7f7 !default;
 
-
-$blue:                #7265e3 !default;
-$sylfph-purple:       #7265e3 !default;
-$sylfph-light-purple: #aaa3ee!default;
-$sylfph-red:          #f77777 !default;
-$sylfph-yellow:       #ffa56c !default;
-$sylfph-grey:         #f7f7f7 !default;
-$sylfph-dark-grey:    #dee2e6 !default;
-$sylfph-off-white:    #f4f6fa !default;
-$sylfph-blue:         #57a5fc !default;
-$sylfph-purple-logo:  #6250a2 !default;
-
-
-
-
+$blue: #7265e3 !default;
+$sylfph-purple: #7265e3 !default;
+$sylfph-light-purple: #aaa3ee !default;
+$sylfph-red: #f77777 !default;
+$sylfph-yellow: #ffa56c !default;
+$sylfph-grey: #f7f7f7 !default;
+$sylfph-dark-grey: #dee2e6 !default;
+$sylfph-off-white: #f4f6fa !default;
+$sylfph-blue: #57a5fc !default;
+$sylfph-purple-logo: #6250a2 !default;
 
 .content-wrapper{
   background-color: $sylfph-grey !important;
@@ -73,24 +67,24 @@ $sylfph-purple-logo:  #6250a2 !default;
 }
 
 .small-box{
-  box-shadow:none;
-  background-color:#fff;
+  box-shadow: none !important;
+  background-color: #fff !important;
 
   .icon{
-    color:$sylfph-light-purple;
+    color: $sylfph-light-purple !important;
   }
 
   .small-box-footer{
-    border-top:1px solid $sylfph-off-white;
-    color:$sylfph-purple;
-    background-color:#fff;
+    border-top: 1px solid $sylfph-off-white !important;
+    color: $sylfph-purple !important;
+    background-color: #fff !important;
   }
 }
 
 .home-top-text{
-  text-align:center;
+  text-align: center;
   p{
-    font-size:1.2rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -98,7 +92,7 @@ $sylfph-purple-logo:  #6250a2 !default;
   .navbar-nav{
     .nav-link{
       &.active{
-        color:$sylfph-purple-logo;
+        color: $sylfph-purple-logo !important;
       }
     }
   }
